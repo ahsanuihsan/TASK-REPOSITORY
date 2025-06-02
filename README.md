@@ -54,7 +54,7 @@ Menerima input tanggal, bulan, dan tahun dari pengguna, lalu memastikan bahwa:
 Menggunakan algoritma Zeller's Congruence untuk menentukan nama hari dari sebuah tanggal:
     - Jika bulan Januari/Februari (1/2), dihitung sebagai bulan 13 dan 14 dari tahun sebelumnya.,
     - Rumus matematis digunakan untuk menghitung indeks hari (0–6).,
-    Hasil dimapping ke array nama hari sesuai urutan:
+    - Hasil dimapping ke array nama hari sesuai urutan:
         hari_nama = ["Sabtu", "Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat"]
 ```
    ![image](https://github.com/user-attachments/assets/cd80cf04-29e5-40c8-80a7-972614ff40b9)
