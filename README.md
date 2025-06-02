@@ -1,6 +1,6 @@
-# TASK-REPOSITORY
+# TASK-REPOSITORY Cek Kabisat dan Hitung Hari
 
-##Cek Kabisat dan Hitung Hari##
+
 Program ini berfungsi untuk memvalidasi tanggal, menentukan apakah suatu tahun merupakan tahun kabisat , menghitung jumlah hari dalam bulan tertentu, serta menentukan nama hari dari sebuah tanggal menggunakan algoritma Zeller’s Congruence.
 
 🔧 Fitur Utama
