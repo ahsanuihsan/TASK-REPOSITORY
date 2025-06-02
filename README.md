@@ -4,14 +4,14 @@
 Program ini berfungsi untuk memvalidasi tanggal, menentukan apakah suatu tahun merupakan tahun kabisat , menghitung jumlah hari dalam bulan tertentu, serta menentukan nama hari dari sebuah tanggal menggunakan algoritma Zeller’s Congruence.
 
 🔧 Fitur Utama
-    ++Memvalidasi input tanggal, bulan, dan tahun.
-    ++Mengecek apakah suatu tahun adalah tahun kabisat.
-    ++Menghitung jumlah hari dalam bulan tertentu.
-    ++Menentukan nama hari dari tanggal yang dimasukkan.
-    ++Output akhir berupa informasi lengkap tentang:
-        ++Nama hari dari tanggal tersebut.
-        ++Apakah tahun tersebut kabisat.
-        ++Tanggal valid yang diinputkan.
+    Memvalidasi input tanggal, bulan, dan tahun.
+    Mengecek apakah suatu tahun adalah tahun kabisat.
+    Menghitung jumlah hari dalam bulan tertentu.
+    Menentukan nama hari dari tanggal yang dimasukkan.
+    Output akhir berupa informasi lengkap tentang:
+        Nama hari dari tanggal tersebut.
+        Apakah tahun tersebut kabisat.
+        Tanggal valid yang diinputkan.
 🧠 Alur Logika Program
 1. Fungsi is_kabisat(tahun)
     ++Menentukan apakah suatu tahun merupakan tahun kabisat :
