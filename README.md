@@ -42,8 +42,8 @@ Meminta pengguna memasukkan angka dengan validasi:
 
 4. Fungsi validasi_input()
 Menerima input tanggal, bulan, dan tahun dari pengguna, lalu memastikan bahwa:
-    Tanggal tidak melebihi jumlah hari dalam bulan dan tahun tertentu.,
-    Jika melebihi, akan diminta ulang sampai valid.,
+    Tanggal tidak melebihi jumlah hari dalam bulan dan tahun tertentu.
+    Jika melebihi akan diminta ulang sampai valid.
    
    ![image](https://github.com/user-attachments/assets/39db860e-ad1b-42fd-b1e4-0a93969e7bac)
 
