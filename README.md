@@ -13,7 +13,7 @@ Program ini berfungsi untuk memvalidasi tanggal, menentukan apakah suatu tahun m
         + Apakah tahun tersebut kabisat.
         + Tanggal valid yang diinputkan.
 ```
-##Alur Logika Program sebagai berikut: 
+## Alur Logika Program sebagai berikut: 
 ```
 1. Fungsi is_kabisat(tahun) 
     Menentukan apakah suatu tahun merupakan tahun kabisat :
