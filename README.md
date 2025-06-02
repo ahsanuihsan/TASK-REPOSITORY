@@ -50,3 +50,7 @@ Menggunakan algoritma Zeller's Congruence untuk menentukan nama hari dari sebuah
     ++Hasil dimapping ke array nama hari sesuai urutan:
         hari_nama = ["Sabtu", "Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat"]
    ![image](https://github.com/user-attachments/assets/cd80cf04-29e5-40c8-80a7-972614ff40b9)
+
+Contoh ketika program dijalankan:
+![image](https://github.com/user-attachments/assets/512b6201-23ab-4296-b1e7-8d18322319c2)
+
