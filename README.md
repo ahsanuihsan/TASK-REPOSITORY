@@ -15,39 +15,39 @@ Program ini berfungsi untuk memvalidasi tanggal, menentukan apakah suatu tahun m
 🧠 Alur Logika Program
 1. Fungsi is_kabisat(tahun)
     Menentukan apakah suatu tahun merupakan tahun kabisat :
-    Jika tahun habis dibagi 4,
-Dan tidak habis dibagi 100 , kecuali juga habis dibagi 400 → maka kabisat.
-Contoh:
-    2020 → ✅ kabisat
-    1900 → ❌ bukan kabisat
-    2000 → ✅ kabisat
+        Jika tahun habis dibagi 4,
+        Dan tidak habis dibagi 100 , kecuali juga habis dibagi 400 → maka kabisat.
+        Contoh:
+            2020 → ✅ kabisat
+            1900 → ❌ bukan kabisat
+            2000 → ✅ kabisat
    
    ![image](https://github.com/user-attachments/assets/3630288e-4673-468d-9d91-7e68b7b67845)
 
    
-3. Fungsi jumlah_hari_dalam_bulan(bulan, tahun)
+2. Fungsi jumlah_hari_dalam_bulan(bulan, tahun)
 Mengembalikan jumlah hari dalam bulan tertentu:
-    Bulan Februari (2): 28 atau 29 hari tergantung hasil is_kabisat()
+   Bulan Februari (2): 28 atau 29 hari tergantung hasil is_kabisat()
     Bulan April, Juni, September, November (4,6,9,11): 30 hari
     Bulan lainnya: 31 hari
    
    ![image](https://github.com/user-attachments/assets/527a324e-4968-4327-91ef-d8f1b94ee391)
 
-4. Fungsi masukan_angka(pesan, min_val=None, max_val=None)
+3. Fungsi masukan_angka(pesan, min_val=None, max_val=None)
 Meminta pengguna memasukkan angka dengan validasi:
     Harus berupa angka (int)
     Diantara rentang nilai yang diperbolehkan (min_val hingga max_val)
    
    ![image](https://github.com/user-attachments/assets/4ef1cc3e-a679-46ba-a0bf-5f2f06e0c211)
 
-6. Fungsi validasi_input()
+4. Fungsi validasi_input()
 Menerima input tanggal, bulan, dan tahun dari pengguna, lalu memastikan bahwa:
     Tanggal tidak melebihi jumlah hari dalam bulan dan tahun tertentu.
     Jika melebihi, akan diminta ulang sampai valid.
    
    ![image](https://github.com/user-attachments/assets/39db860e-ad1b-42fd-b1e4-0a93969e7bac)
 
-8. Fungsi zeller_congruence(tanggal, bulan, tahun)
+5. Fungsi zeller_congruence(tanggal, bulan, tahun)
 Menggunakan algoritma Zeller's Congruence untuk menentukan nama hari dari sebuah tanggal:
     Jika bulan Januari/Februari (1/2), dihitung sebagai bulan 13 dan 14 dari tahun sebelumnya.
     Rumus matematis digunakan untuk menghitung indeks hari (0–6).
